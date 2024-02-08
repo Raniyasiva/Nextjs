@@ -1,0 +1,18 @@
+[
+    { "name": "firstname", "label": "First Name", "type": "text" },
+    { "name": "lastname", "label": "Last Name", "type": "text"},
+    { "name": "gender", "label": "Gender", "type": "radio", "options": ["Male", "Female", "Other"] },
+    { "name": "phone", "label": "Phone Number", "type": "text" },
+    { "name": "address", "label": "Address", "type": "text" },
+    { "name": "city", "label": "City", "type": "text"},
+    { "name": "district", "label": "District", "type": "text"},
+    { "name": "country", "label": "Country", "type": "select", "options": ["India", "Canada", "UK"]},
+    { "name": "comment", "label": "Comment", "type": "textarea" },
+    { "type": "submit",
+     "label": "Submit",
+    "text":"submit",
+    "submiturl":"http://localhost:3001/api/users",
+    "updateurl": "http://localhost:3001/api/updateuser",
+    "redirectionUrl": "/Table"
+}
+]
